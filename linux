@@ -1,0 +1,147 @@
+pwd: present working directory
+whoami: to see which user we are using
+host name: to kwonn the name of the host
+uname -r to kwon the the kernel
+uname -a
+last 
+last login
+users
+date: to kwon the present system date
+cal: to see the calendar
+cal 2023: to see the 2023 calendar
+hostnamectl
+cat /etc/os-release
+cat /etc/redhat-release
+cat /etc/rockylinux-release
+tree
+rpm -q packagename : to known if the package is install
+rpm -qi packagename
+rpm -Rqi packagename 
+cat > filename 
+cat  filename
+cat>>filename
+touch filename
+touch filename{1..34}
+touch .filename
+mkdir directory-name
+mkdir directory-name{..}
+mkdir .directory-name
+mkdir -p /directory/directory/.........
+ls
+ls -a
+ls -l
+ll
+ll -a
+ll -l
+ls -la
+ls -r
+ls -lra
+ls -o
+ll -s
+ll -o
+ll -r
+ll -l
+ll -lra
+
+mv filename newfilename
+mv source-path destination-path
+cp file-name new-filename: this command is used for copy data for a file to a no s-existing file
+cp source-file-path destination-path:only for a file
+  
+cp -r source-directory-path destination-path
+cp -rvfp source-directory-path destination=path : recursively,vigorously,forcefully,with permissions
+cp source-directory-path
+cp -rvfp source-directory-path
+rm filename
+rm filename.....
+rm source-path/filename
+rm -f filename
+rm -f filename.......
+rm -f source-path/filename
+rm -r directoryname
+rm -r directoryname .....
+rm -r source-directory/directory name
+rm -rf directory name
+rm -rf directory name...
+rm -rf source-directory/directory-name
+rm filename{1..67}
+rm -f filename {start number .. end number}
+cd ..
+cd directory
+cd directory/..
+cd ../../../../../../../..
+cd -
+init 0
+init 6
+ctrl+d
+yum list install
+yum list available
+yum update -y
+yum remove package-name
+chmod u+rwx
+chmod g+rwx
+chmod o+rwx
+chmod ug+rwx
+chmod go+rwx
+chmod uo+rwx
+chmod ugo+rwx
+chmod u-rwx
+chmod g-rwx
+chmod o-rwx
+chmod ug-rwx
+chmod go-rwx
+chmod uo-rwx
+chmod ugo-rwx
+chmod 444
+chmod 644
+chmod 755
+chmod 566
+init 1
+init 2
+init 4
+init 3
+init 5
+runlevel
+reboot 
+free -h
+free -k
+free -b
+free -n
+free -g
+lsblk
+fdisk -l
+du -h
+vi filename
+vim filename
+i
+r
+o
+O
+A
+a
+w
+b
+nw
+nb
+dd
+ndd
+yy
+nyy
+p
+hjkl
+u
+x
+X
+g
+G
+set nu
+set nonu
+:wq
+:q!
+:! command
+:w
+:w!
+:q
+:wq!
+/character-name
+/word-name

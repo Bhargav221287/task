@@ -1,0 +1,59 @@
+git status => to see the status of the files
+git add => to add the files into staging
+git commit -m "this ia --- commit" filename => to commit a file
+git add * => used to add all the files into staging or index (used in multiple file cases)
+git add filename1 filename2 => to add 2 files at a time
+git add filename{startingno. .. endingno. } => to add multiple files with same name with differeant numbering [no. =number]
+git add .  =>to add all files (hidden also)
+git add p* P* a* A* d* => this is the only one example here for this time
+git reset filename => to change the file from staging to working directory or from commiting to working directory
+git stage filename => to stage the only one file
+git stage filename filename => to stage two files at a time
+git stage filename{startingno. .. endingno.} => to stage all files at a time
+git stage * => to add all files at a time(only normal)
+git stage . => to add all files hidden also
+git stage --all => to add all files
+git stage -A => to add all files 
+git stage p* P* a* A* d* => this is the only one example here for this time
+git reset => to change the file from staging to working directory or from commiting to working directory
+git reset filename
+git reset filename filename
+git reset . (this is also example)
+git reset * (this is also example)
+git reset p* P* a* A* d* (this is the only one example here for this time)
+git commit -m "message" filename 
+git commit -m "message" filename filename => to commit multiple files at a time 
+git commit -m "message" => to commitall files at a time
+example
+git commit -m "index.html VI.O" index.html
+git commit -am "message" => we are commiting the all modified and deleted files from working directory
+git show => this is a command used to see the latest commited files along with files content
+git reset --soft HEAD => to call back latest comiited files from commiting area to staging
+git reset @~
+git diff
+git diff filename
+git add -u : => to add only modified and deleted files from working directory to staging
+git reset -hard HEAD
+git branch
+git branch -new Branch name
+git branch -m -old Branch name -new Branch name
+git branch -d -branch name
+git checkout -branch name
+git	checkout -b -new branch name
+git push origin -u future branch
+git push origin future-branch
+git push origin --all
+git commit --amend --no-edit
+git pull
+git fetch 
+git rebase
+git merge
+git tag
+git tag -a -m 
+git push tag
+git branch conflicts
+git stash
+git stash pop id
+git stash show stash id
+git stash drop
+git stash clear
