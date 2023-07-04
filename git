@@ -57,3 +57,24 @@ git stash pop id
 git stash show stash id
 git stash drop
 git stash clear
+git => global information track
+git is made for SCM(source code management)
+vim => to create and write in a file
+touch => to create file 
+ll => long list of files and directories
+git clone => to clone remote repository into local machine
+cd => to change the directory
+ls => to see the files in a short form
+ll -a => to see the long list of fles and directories including hidden files
+git status => to see the status of the files
+git add => to add the files into staging
+git commit -m "this ia --- commit" filename => to commit a file
+git add * => used to add all the files into staging or index (used in multiple file cases)
+git add filename1 filename2 => to add 2 files at a time
+git add filename{startingno. .. endingno. } => to add multiple files with same name with differeant numbering [no. =number]
+git branch => to see which branch are in git and see whether we are main branch or not
+git reset filename => to change the file from staging to working directory or from commiting to working directory
+git stage filename => to stage the only one file
+git stage filename filename => to stage two files at a time
+git stage filename{startingno. .. endingno.} => to stage all files at a time
+git stage * => to add all files at a time 

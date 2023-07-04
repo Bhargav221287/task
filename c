@@ -57,3 +57,6 @@ c is computer language
 c is one of the computer language
 there are so many computer languages c is one of them
 Dennis Ritchie invented c language in 1972
+c is a very dificult language 
+pyton is also a computer language
+

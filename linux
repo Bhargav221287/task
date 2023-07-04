@@ -145,3 +145,12 @@ set nonu
 :wq!
 /character-name
 /word-name
+ll
+cd
+vim
+ll .
+gcc
+./
+rm 
+rm -r
+rm -f 
